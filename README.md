@@ -1,5 +1,7 @@
 # login-and-library-app
 
+Admin Dashboard using Vue js
+
 ## Project setup
 ```
 npm install
@@ -10,15 +12,6 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Screen Capture
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Alt text](src/assets/screen-capture/login-page.png)
