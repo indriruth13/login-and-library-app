@@ -1,28 +1,36 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <router-view></router-view>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @font-face {
+    font-family: "Airbnb Cereal Black";
+    src: local("Airbnb Cereal Black"),
+    url(../src/assets/fonts/AirbnbCerealBlack.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Airbnb Cereal Light";
+    src: local("Airbnb Cereal Light"),
+    url(../src/assets/fonts/AirbnbCerealLight.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Airbnb Cereal Book";
+    src: local("Airbnb Cereal Book"),
+    url(../src/assets/fonts/AirbnbCerealBook.ttf) format("truetype");
+  }
+
+  .v-application {
+    font-family: 'Airbnb Cereal Light' !important;
+  }
 </style>
